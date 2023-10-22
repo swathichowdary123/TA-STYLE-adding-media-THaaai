@@ -1,0 +1,292 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 32px;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    padding:32px 0;
+    background: linear-gradient(to right,navy,aquamarine);
+}
+.hydro-brand{
+    font-size: 28px;
+    color:white;
+    font-weight: 700;
+}
+li{
+    margin-left: 30px;
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+}
+li a{
+    color:white;
+}
+.sign-in{
+    height:100px;
+    width:160px;
+    border-radius:20px;
+    text-align: center;
+    color:white;
+    background-color: brown;
+    font-size: 16px;
+    padding:10px;
+}
+.padding{
+    padding:120px;
+    padding-bottom: 80px;
+}
+.heading-one{
+    color:white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.flex-start{
+    align-items: flex-start;
+}
+.start{
+    width:160px;
+    height:100px;
+    border-radius: 20px;
+    color:white;
+    border: 2px solid white;
+    padding:8px;
+    margin-bottom: 20px;
+}
+.section{
+    padding:80px 0;
+}
+.call-text{
+    color:white;
+    margin-top: 20px;
+}
+.heading-two{
+    color:black;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.dots{
+    height:8px;
+    width:8px;
+    background-color: gray;
+    margin-left: 8px;
+   align-items: center;
+}
+.lorem-text{
+   font-size: 16px;
+   color:#4b4242;
+   line-height: 1.5;
+   margin:20px 0;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.progress-bar{
+    width:100%;
+    background-color: gray;
+}
+.skillset{
+    text-align: right;
+    color:white;
+}
+.web-design{
+    width:85%;
+    background-color: black;
+    margin-bottom: 16px;
+}
+.photography{
+    width:90%;
+    background-color: black;
+    margin-bottom: 16px;
+}
+.content-marketing{
+    width:75%;
+    background-color: black;
+    margin-bottom: 16px;
+}
+.cms{
+    width:70%;
+    background-color: black;
+    margin-bottom: 16px;
+}
+.img-man{
+    width:300px;
+    height: 300px;
+}
+.width{
+    width:30%;
+}
+.bar{
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 700;
+}
+.center{
+    text-align: center;
+}
+.blog-section{
+    background-color:#d1c6c6;
+    padding:60px;
+}
+.img-01{
+    width:250px;
+    height:300px;
+    margin-right: 12px;
+}
+.time{
+    color:darkred;
+    margin-bottom: 20px;
+}
+.title{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.color{
+    background-color: white;
+    margin-right: 20px;
+}
+.article-border{
+    height:80px;
+    width:140px;
+    padding:10px;
+    color:black;
+    font-size: 18px;
+    text-align: center;
+    background-color:#d1c6c6;
+    border-radius: 18px;
+}
+.blog-width{
+    width:45%;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.margin{
+    margin-top:20px;
+}
+.work-header{
+    text-align: center;
+    padding:60px;
+}
+.pic{
+    width:250px;
+    height:250px;
+}
+.work-section{
+    margin-bottom: 60px;
+}
+.contact-width{
+    width:60%;
+    margin-top: 20px;
+}
+.box{
+    width:300px;
+    height:40px;
+    padding:10px;
+    background-color: beige;
+    margin-right: 10px;
+}
+.box-width{
+    width:670px;
+    margin-top: 20px;
+    padding-bottom:100px;
+    margin-bottom: 20px;
+}
+.contact-padding{
+    padding:40px;
+}
+.map{
+    width: 100%;
+    border-radius: 50%;
+    height:400px;
+}
+.footer{
+    background-color: #18182e;
+    padding-bottom: 40px;
+}
+h4{
+    font-size: 26px;
+    color:white;
+    margin-bottom:10px;
+}
+.footer-width{
+    width:25%;
+}
+.lorem{
+    font-size: 16px;
+    color:white;
+    line-height:1.2;
+}
+hr{
+    width:1200px;
+    background-color: gray;
+    margin:20px 0;
+}
+.link{
+    margin-left: 30px;
+}
+.small{
+    color:white;
+}
